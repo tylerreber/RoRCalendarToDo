@@ -1,0 +1,74 @@
+// Place all the styles related to the month controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.ctd-one-seventh {
+  width: 13% !important;
+}
+
+
+.ctd-today {
+  background-color: light-gray;
+}
+
+.btn-group .month-buttons {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctd-date-drop {
+  background-color: #aaaaaa;
+}
+
+.col {
+  height: 150px !important;
+}
+
+.ctd-five-percent {
+  width: 5%;
+}
+
+.ctd-timeslot {
+
+}
+
+.ctd-table-week {
+  overflow: scroll;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.ctd-table {
+	font-size: .9rem;
+}
+
+#ctd-week-events > tr > td {
+  border-top: none;
+  border-bottom: none;
+}
+
+#ctd-week {
+  table-layout: fixed;
+}
+
+.ctd-droppable {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#ctd-scroll-area {
+  width: 100%;
+  overflow: scroll;
+}
+
+.task-oncal {
+  display: block;
+  width: 100%;
+  margin-top: 1px;
+}

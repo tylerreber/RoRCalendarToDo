@@ -1,0 +1,3 @@
+$('#ctd-no-duedate').append("<li id='ctd-draggable-<%= @task.id %>' class='list-group-item'><input id='ctd-task-<%= @task.id %>' type='checkbox' />&nbsp;<%= @task.task_name %></li>");
+ctd_make_draggable("#ctd-draggable-<%= @task.id %>");
+ctd_bind_task_checkoff();
