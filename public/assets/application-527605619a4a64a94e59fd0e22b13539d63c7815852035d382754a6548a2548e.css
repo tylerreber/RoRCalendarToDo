@@ -1,0 +1,94 @@
+/* line 6, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-one-seventh {
+  width: 13% !important;
+}
+
+/* line 11, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-today {
+  background-color: light-gray;
+}
+
+/* line 15, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.btn-group .month-buttons {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 21, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-date-drop {
+  background-color: #aaaaaa;
+}
+
+/* line 25, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.col {
+  height: 150px !important;
+}
+
+/* line 29, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-five-percent {
+  width: 5%;
+}
+
+/* line 37, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-table-week {
+  overflow: scroll;
+  display: block;
+}
+
+/* line 42, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.hidden {
+  display: none;
+}
+
+/* line 46, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-table {
+  font-size: .9rem;
+}
+
+/* line 50, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+#ctd-week-events > tr > td {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 55, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+#ctd-week {
+  table-layout: fixed;
+}
+
+/* line 59, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.ctd-droppable {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 65, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+#ctd-scroll-area {
+  width: 100%;
+  overflow: scroll;
+}
+
+/* line 70, /Users/Tyler/Sites/calendartodo/app/assets/stylesheets/month.scss */
+.task-oncal {
+  display: block;
+  width: 100%;
+  margin-top: 1px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
