@@ -278,6 +278,7 @@ function ctd_tasks_inweek(ctd_json_info){
 
 //Day numbers on the calendar.
 function loadDates(firstDay, lastDay){
+  $(".ctd-droppable").html("");
   for (var i = 1; i < 43; i++) {
     $("#ctd-date-box-"+i).html("");
     if (i < firstDay + 1) {
