@@ -52,4 +52,5 @@ production:
   database: calendartodo_production
   username: calendartodo
   password: Oa82KnRdq2x1Ik7z0WHs*
+  socket: /var/run/mysqld/mysqld.sock
 #  password: <%= ENV['CALENDARTODO_DATABASE_PASSWORD'] %>
