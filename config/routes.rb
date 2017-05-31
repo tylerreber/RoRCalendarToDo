@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => 'access#login'
   get 'access/menu'
 
   get 'access/login'

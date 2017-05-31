@@ -1,30 +1,4 @@
 
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Jquery UI -->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-        loadWeekView();
-      });
-    </script>
-
-
-    <style type="text/css">
-      body {
-        position: relative;
-        overflow-y: scroll;
-      }
-    </style>
-
-  </head>
-  <body data-spy="scroll" data-target="#navbar-example">
-
     <div class="alert hidden" role="alert">
 
     </div>
@@ -75,6 +49,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/month/index">Month</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/access/logout">Logout</a>
           </li>
         </ul>
         <div class="row justify-content-center">
@@ -140,9 +117,12 @@
 
 
     </div>
-  </body>
   <form>
     <input type="hidden" id="ctd-month-value" value="*** echo $_SESSION['month'];***"/>
     <input type="hidden" id="ctd-year-value" value="*** echo $_SESSION['year'];***"/>
   </form>
-</html>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      loadWeekView();
+    });
+  </script>

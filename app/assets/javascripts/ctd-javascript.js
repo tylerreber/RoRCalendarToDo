@@ -174,6 +174,7 @@ function ctd_make_droppable(){
         ctd_month = parseInt(ctd_month) +1;
           ctd_due_day_id = ctd_due_day_id - firstDay;
         ctd_assign_duedate(ctd_task_id_to_update, ctd_month, ctd_due_day_id, ctd_year);
+        ctd_due_day_id += 1;
         $("#ctd-date-box-" + ctd_due_day_id).append("</br><span id='ctd-oncal-" + ctd_task_id_to_update + "' class=' pl-1 bg-primary text-white task-oncal rounded '> " + $(ctd_unchanged_task_id).text() + "</span>");
       }
       if (ctd_view == "week") {
